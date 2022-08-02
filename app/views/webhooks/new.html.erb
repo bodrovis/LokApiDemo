@@ -1,0 +1,15 @@
+<h1>Register webhook</h1>
+
+<%= form_with url: webhooks_path do |f| %>
+  <div class="mb-3 row">
+    <div class="col-sm-2 col-form-label">
+      <%= f.label :project_id %>
+    </div>
+
+    <div class="col-sm-10">
+      <%= f.text_field :project_id, class: 'form-control' %>
+    </div>
+  </div>
+
+  <%= f.submit "Register", class: 'btn btn-primary' %>
+<% end %>

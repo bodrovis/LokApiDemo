@@ -169,7 +169,7 @@ GEM
     rake (13.0.6)
     reline (0.3.1)
       io-console (~> 0.5)
-    ruby-lokalise-api (6.1.0)
+    ruby-lokalise-api (6.2.0)
       addressable (~> 2.5)
       faraday (~> 2.0)
       faraday-gzip (~> 0.1)
@@ -220,7 +220,7 @@ DEPENDENCIES
   pg (~> 1)
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
-  ruby-lokalise-api (~> 6.0)
+  ruby-lokalise-api (~> 6.2)
   sprockets-rails
   stimulus-rails
   turbo-rails
